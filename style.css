@@ -1,0 +1,27 @@
+
+body {
+  text-align: center;
+}
+.row{
+  display: flex;
+  justify-content: center;
+}
+
+.gridsquare {
+  border: solid;
+  width: 100px;
+  height: 100px;
+  font-size: 100px;
+  text-align: center;
+  line-height: 100px;
+  vertical-align: middle;
+}
+
+@media all and (min-width:768px) {
+
+  .gridsquare {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+  }
+}
